@@ -1,0 +1,96 @@
+{
+  "umbral": 0.12,
+  "prueba": {
+    "Exactitud": 0.5518867924528302,
+    "Sensibilidad (recall)": 0.7984496124031008,
+    "Especificidad": 0.5076495132127955,
+    "Precisión": 0.22538293216630198,
+    "F1": 0.3515358361774744,
+    "ROC-AUC": 0.7125314012786924
+  },
+  "base": {
+    "Exactitud": 0.8525943396226415,
+    "Sensibilidad (recall)": 0.07751937984496124,
+    "Especificidad": 0.9916550764951322,
+    "Precisión": 0.625,
+    "F1": 0.13793103448275862,
+    "ROC-AUC": 0.7130596974695691
+  },
+  "roc_auc_cv": 0.7304820599409033,
+  "matriz_confusion": [
+    [
+      365,
+      354
+    ],
+    [
+      26,
+      103
+    ]
+  ],
+  "odds_ratios": [
+    {
+      "variable": "prevalentStroke",
+      "incremento": "tener el factor (1 vs 0)",
+      "odds ratio": 3.460620003563096,
+      "IC 95% inferior": 1.2960793194620674,
+      "IC 95% superior": 9.240090964518737,
+      "valor p": 0.0132294958043678
+    },
+    {
+      "variable": "age",
+      "incremento": "+10",
+      "odds ratio": 1.9236233427364329,
+      "IC 95% inferior": 1.6864295342573388,
+      "IC 95% superior": 2.1941781079812617,
+      "valor p": 1.9645522290803074e-22
+    },
+    {
+      "variable": "male",
+      "incremento": "tener el factor (1 vs 0)",
+      "odds ratio": 1.7398849555596698,
+      "IC 95% inferior": 1.4004541495009566,
+      "IC 95% superior": 2.161584268689981,
+      "valor p": 5.684836166180339e-07
+    },
+    {
+      "variable": "sysBP",
+      "incremento": "+20",
+      "odds ratio": 1.3202665797873154,
+      "IC 95% inferior": 1.1759159082549844,
+      "IC 95% superior": 1.4823371547800537,
+      "valor p": 2.5635690709947395e-06
+    },
+    {
+      "variable": "prevalentHyp",
+      "incremento": "tener el factor (1 vs 0)",
+      "odds ratio": 1.2616673115388912,
+      "IC 95% inferior": 0.9595750917719571,
+      "IC 95% superior": 1.6588638228055066,
+      "valor p": 0.09601925845834584
+    },
+    {
+      "variable": "cigsPerDay",
+      "incremento": "+10",
+      "odds ratio": 1.2166722766412603,
+      "IC 95% inferior": 1.1186160651830748,
+      "IC 95% superior": 1.3233239489593425,
+      "valor p": 4.77233884370734e-06
+    },
+    {
+      "variable": "glucose",
+      "incremento": "+20",
+      "odds ratio": 1.1682485781683036,
+      "IC 95% inferior": 1.0813020010658767,
+      "IC 95% superior": 1.2621864558161622,
+      "valor p": 8.118928647822676e-05
+    },
+    {
+      "variable": "totChol",
+      "incremento": "+40",
+      "odds ratio": 1.0639603936486408,
+      "IC 95% inferior": 0.9693653979225897,
+      "IC 95% superior": 1.1677863906416943,
+      "valor p": 0.1918809552898627
+    }
+  ]
+}

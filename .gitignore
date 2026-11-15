@@ -1,0 +1,21 @@
+# Entornos y cachés
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.streamlit/
+
+# Configuración local de herramientas
+.claude/
+.vscode/
+.idea/
+
+# Material de referencia que NO forma parte de la entrega
+logistic-regression-heart-diseases-prediction.ipynb
+/framingham.csv
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,14 @@
+# Proyecto completo (notebook + dashboard)
+# Versiones exactas con las que se generó y probó el modelo (.pkl)
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.10.9
+seaborn==0.13.2
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+statsmodels==0.15.0
+joblib==1.6.0
+streamlit==1.67.0
+plotly==7.1.0
+jupyter==1.1.1

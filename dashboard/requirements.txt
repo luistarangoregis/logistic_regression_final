@@ -1,0 +1,10 @@
+# Dependencias mínimas del dashboard (las usa Streamlit Community Cloud)
+# Deben coincidir con las versiones con que se generó el modelo .pkl
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.18.1
+scikit-learn==1.9.1
+imbalanced-learn==0.14.2
+joblib==1.6.0
+streamlit==1.67.0
+plotly==7.1.0
